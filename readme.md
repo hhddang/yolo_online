@@ -1,19 +1,19 @@
 1. Structure
 
-yolo_online----images  Store images to test website
-
-    |----------model------coco.names  List of objects'name that model is trained for dectecting
-    |            |--------functions.py  Call YOLO and detect image
-    |            |--------yolov3.cfg  Configuration of YOLO model
-    |            |--------yolov3.weights  YOLO model
-    |---------static------css  Store .css files
-    |           |--------js  Store .js file
-    |           |--------img------blank.jpg  Default image to show when starting server
-    |                     |-------original.jpg  Save image uploaded by user
-    |                     |-------detection.jpg  Save image after detecting objects
-    |-------templates Store .html files
-    |-------server.py  Run this file to start server
-    |-------requirements.txt
+yolo_online
+    |--------images  Store images to test website
+    |--------model------coco.names  List of objects'name that model is trained for dectecting
+    |          |--------functions.py  Call YOLO and detect image
+    |          |--------yolov3.cfg  Configuration of YOLO model
+    |          |--------yolov3.weights  YOLO model
+    |--------static------css  Store .css files
+    |          |--------js  Store .js file
+    |          |--------img------blank.jpg  Default image to show when starting server
+    |                    |-------original.jpg  Save image uploaded by user
+    |                    |-------detection.jpg  Save image after detecting objects
+    |--------templates Store .html files
+    |--------server.py  Run this file to start server
+    |--------requirements.txt
 
 
 2.How it works?
