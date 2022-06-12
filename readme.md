@@ -1,6 +1,5 @@
 1. Structure
 
-yolo_online
     |--------images  Store images to test website
     |--------model------coco.names  List of objects'name that model is trained for dectecting
     |          |--------functions.py  Call YOLO and detect image
