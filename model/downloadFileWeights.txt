@@ -1,0 +1,4 @@
+You need file .weights (or .backup) to run model. Download here https://drive.google.com/drive/folders/1V1COqlQzQtwwFwy6t4zGPjLEZ819WDZ8?usp=sharing
+File yolov3.weights used for coco model.
+File yolov3.backup used for sea-creatures model.
+After downloading, put the file in the corresponding folder.
