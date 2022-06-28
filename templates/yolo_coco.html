@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='js/event.js')}}"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>YOLO uses COCO dataset</title>
+</head>
+<body>
+    <div id="main">
+        <a href="./yolo-sea-creature" id="move-btn">Change model</a>
+        <div id="header">
+            <p>Object Detection</p>
+        </div>
+        <div id="body">
+            <div id="demo" class="horizontal-box">
+                <img class="demo-image" src="https://djl.ai/examples/src/test/resources/dog_bike_car.jpg" alt="">
+                <img class="demo-image" src="https://djl.ai/examples/docs/img/detected-dog_bike_car.png" alt="">
+            </div>
+            <div id="detection vertical-box">
+                <div id="detection-imgs" class="horizontal-box">
+                    <img id="input" src={{image_input}} alt="" class="detection-img">
+                    <img src={{image_output}} alt="" class="detection-img">
+                </div>
+                <form id="detection-nav" class="horizontal-box" method="post" enctype="multipart/form-data">
+                    <input type="file" id="upload-image" name="upload-image">
+                    <input type="submit" id="detection-btn" name="detection-btn" value="Detect">
+                </form>
+            </div>
+
+
+
+             
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+</html>

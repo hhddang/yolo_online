@@ -1,0 +1,172 @@
+
+/************ 
+    Reset CSS 
+************/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/************ 
+    Based CSS
+************/
+.vertical-box{
+    display: flex;
+    flex-direction: column ;
+}
+
+.horizontal-box{
+    display: flex;
+    flex-direction: row ;
+}
+
+
+/************ 
+    Custom our CSS
+************/
+#main{
+    background: white;
+}
+
+/* Custom #header */
+
+#move-btn{
+    position: fixed;
+    background: aqua;
+    border: 1px solid;
+    padding: 5px;
+    text-decoration: none;
+    margin: 10px;
+    /* border-radius: 10px; */
+}
+
+#header{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+#header p{
+    background: rgb(52, 255, 150);
+    margin: 10px auto 0;
+    width: 80%;
+    height: 80px;
+    color: white;
+    font-size: 30;
+    font-weight: 800;
+    text-align: center;
+    line-height: 80px;
+}
+
+/* Custom #body */
+#body{
+    margin-bottom: 30px;
+}
+
+#demo{
+    width: 620px;
+    height: 200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.demo-image{
+    width: 240px;
+    height: 160px;
+    margin: 0 5px;
+}
+
+#detection{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#detection-imgs{
+    width: 80%;
+    margin: 0 auto 20px;
+    justify-content: center;
+}
+
+.detection-img{
+    width: 600px;
+    height: 400px;
+    margin: 0 10px;
+    border: 1px solid black;
+}
+
+#detection-nav{
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#detection-btn{
+    background: rgb(52, 255, 150);
+    border: none;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#detection-btn:hover{
+    cursor: pointer;
+    background: silver;
+}
+/* .detecting-box{
+    background: linear-gradient(green, black);
+    
+    width: 100%;
+    margin: 10px auto;
+}
+
+.detecting-box .box-title{
+    width: 100%;
+    height: 30px;
+    font-size: 20;
+    font-weight: 800;
+    text-align: center;
+    line-height: 14px;
+    padding: 20px 20px;
+}
+
+.detecting-box .box-body{
+    font-size: 15;
+    font-weight: 400;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.image-display{
+    background: #fff;
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+}
+
+.image-input{
+
+}
+
+.button i{
+    line-height: 300px;
+    cursor: pointer;
+}
+
+.button i:hover{
+    opacity: 0.8;
+}
+
+.image-output{
+    width: 500px;
+    height: 300px; 
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+} */
+
+/* Custom #footer */
+#footer{}
